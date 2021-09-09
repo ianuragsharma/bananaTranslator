@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&display=swap");
+:root {
+  --primary-color: #fbbf24;
+  --seconday-color: #3b82f6;
+}
+
+body {
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
+  margin: 0;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
+}
+
+.heading {
+  text-align: center;
+  margin: 0;
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-translatefrom {
+  border: 1px solid rgb(54, 49, 49);
+  border-radius: 5px;
+  height: 15vh;
+  min-width: 60vw;
+  margin: 2rem 0rem;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
+}
+
+.translated-text {
+  background-color: white;
+  border: 1px solid rgb(54, 49, 49);
+  border-radius: 5px;
+  height: 15vh;
+  min-width: 60vw;
+  margin: 2rem 0rem;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
+}
+
+#btn-translate {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  width: 30%;
+  font-size: larger;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
+}
+#btn-reset {
+  background-color: var(--seconday-color);
+  padding: 1rem;
+  width: 30%;
+  font-size: larger;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Lobster", cursive;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+#footer-para {
+  max-width: 60vw;
+  margin: auto;
+  padding: 1rem;
+}
+
+#footer-div {
+  font-size: x-large;
+  font-weight: bold;
+}
