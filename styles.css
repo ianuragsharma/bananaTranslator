@@ -51,9 +51,11 @@ body {
   font-family: "Architects Daughter", cursive;
   font-family: "Lobster", cursive;
 }
+/* buttons */
 
 #btn-translate {
   background-color: var(--primary-color);
+  cursor: pointer;
   padding: 1rem;
   width: 30%;
   font-size: larger;
@@ -65,6 +67,7 @@ body {
 }
 #btn-reset {
   background-color: var(--seconday-color);
+  cursor: pointer;
   padding: 1rem;
   width: 30%;
   font-size: larger;
