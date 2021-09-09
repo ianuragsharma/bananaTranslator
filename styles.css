@@ -1,12 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&display=swap");
 :root {
-  --primary-color: #fbbf24;
-  --seconday-color: #3b82f6;
+  --primary-color: #fdcd2e;
+  --seconday-color: #32cf90;
 }
 
 body {
+  /* background: linear-gradient(
+    to bottom,
+    #9f9ff3,
+    #88a5db,
+    #91eae4
+  );  */
+  background-color: #fffbeb;
   box-sizing: border-box;
-  background: linear-gradient(to bottom, #ffffff, #6dd5fa, #2980b9);
   margin: 0;
   font-family: "Architects Daughter", cursive;
   font-family: "Lobster", cursive;
